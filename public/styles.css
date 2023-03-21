@@ -14,14 +14,7 @@
     width: 100%;
     height: 2.5rem;
   }
-  .box{
-    position: relative;
-    top: 4rem;
-    left: 40%;
-    width: 250px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
-    padding: 50px 20px;
-  }
+
   .card-container {
     position: relative;
     top: 10rem;
@@ -32,3 +25,25 @@
     display: flex;
     
   }
+.create-form{
+  position: relative;
+  width: 400px;
+  margin: 30px auto 20px auto;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px;
+}
+.create-form input, textarea
+{
+   width: 100%;
+   border: none; /* input boorder around none */
+   padding: 4px;
+   outline: none; /* input outline around none */
+   font-size: 1.2rem;
+   font-family: inherit;
+   resize: none; /* resize means cut out the input long turn-in */
+} 
+.create-form button {
+  margin-left: 80%;
+  color: yellow;
+}

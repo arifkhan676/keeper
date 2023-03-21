@@ -4,6 +4,7 @@ import Header from "./Header";
 import Note from "./Note";
 import PostArea from "./PostArea";
 
+
 function App() {
 
   const [AllNotes,SetNotes] = useState([]);
