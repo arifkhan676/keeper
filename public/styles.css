@@ -1,9 +1,14 @@
 *{
     padding: 0px;
     margin: 0px;
-}
+    box-sizing: border-box;
+ }
+
+    body{
+      background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+    }
 .heading {
-    background-color: yellow;
+    background-color: #ffff00;
     padding: 3% 3% 3%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }

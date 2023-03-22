@@ -7,7 +7,6 @@ function Note(props) {
   function handleClick(){
       props.onChecked(props.id);
   }
-  
   return (
     <div className="card-container">
       <div>
