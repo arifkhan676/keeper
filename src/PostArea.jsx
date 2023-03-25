@@ -42,7 +42,7 @@ function PostArea(props) {
       {isExpand &&
       <input name="title" onChange={handleChange}  value={note.title} placeholder="Title" />
       }
-        <textarea onClick={clicked}  name="content" onChange={handleChange}  id=""  rows={isExpand ? 3 : 1 }  value={note.content}  placeholder="Post your activity" ></textarea>
+        <textarea onClick={clicked}  name="content" onChange={handleChange}  id=""  rows={isExpand ? 2 : 1 }  value={note.content}  placeholder="Post your activity" ></textarea>
         <Zoom in={isExpand} >  
         <Fab onClick={submitNote}> <AddIcon/> </Fab>  
         </Zoom>

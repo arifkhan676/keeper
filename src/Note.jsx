@@ -8,15 +8,16 @@ function Note(props) {
       props.onChecked(props.id);
   }
   return (
-    <div className="card-container">
+    <div className="card-container col-lg-4">
       <div>
       <h3>{props.title}</h3>
       <p>{props.content}</p>
       </div>
-    <div>
+    <div className="delete-icon">
       <button onClick={handleClick} > <DeleteIcon /> </button>
     </div>
     </div>
+
 
   );
 }

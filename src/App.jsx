@@ -26,9 +26,12 @@ function App() {
     <div className="App">
       <Header />
       <PostArea onAdd={addNote} />
+      <div className="body-element">
       {AllNotes.map((noteitem,index )=> {
       return <Note key={index} id={index}  title={noteitem.title} content={noteitem.content} onChecked={deleteItem} />;
       })}
+      </div>
+     
       <Footer />
     </div>
   );
